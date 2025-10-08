@@ -1,105 +1,104 @@
-# marketing_campaign_project
+# 🎯 Marketing Campaign Analysis — SQL A/B Testing & Power BI Dashboard
 
-SQL A/B Testing on Marketing Campaigns . Data cleaning, transformation, and analysis of Kaggle Marketing Campaign dataset using MySQL. 
+This project showcases **data-driven decision-making for marketing optimization**.  
+It involves **SQL-based A/B testing**, **data cleaning**, and **visual analytics** to evaluate the performance of marketing campaigns using the **Kaggle Marketing Campaign dataset**.
 
+---
 
-Interactive Power BI dashboard visualizing marketing campaign performance — built using SQL & Power BI.
+## 🧭 Project Overview
 
+The objective of this project was to **analyze customer response, conversion rates, and revenue effectiveness** across multiple marketing campaigns.  
+Data was **cleaned and transformed in MySQL**, then visualized through an **interactive Power BI dashboard** that highlights actionable business insights.
 
-<img width="1096" height="613" alt="image" src="https://github.com/user-attachments/assets/18defe94-a00f-4970-96ce-a4ee7def7c62" />
+<p align="center">
+  <img width="1096" height="613" alt="Power BI Dashboard Preview" src="https://github.com/user-attachments/assets/18defe94-a00f-4970-96ce-a4ee7def7c62" />
+</p>
 
+---
 
- **Project Overview**
- 
+## 🛠 Tools & Technologies
 
-This project analyzes the performance of marketing campaigns (A/B testing) to evaluate customer response, conversion rates, and revenue effectiveness.
-Data was cleaned and transformed in SQL, then visualized in Power BI to highlight key business insights.
+| Tool | Purpose |
+|------|----------|
+| **MySQL Workbench** | Data cleaning, transformation, and metric calculations |
+| **Power BI** | Dashboard design and interactive visualization |
+| **Excel / CSV** | Data export and integration |
+| **GitHub** | Version control and documentation |
 
+---
 
-**Tools Used**
+## 🧹 SQL Data Cleaning & Transformation
 
+Performed comprehensive data preparation in SQL, including:
 
-MySQL Workbench – Data cleaning, transformation, and metric calculations
+- ✅ Removal of nulls, duplicates, and invalid customer IDs  
+- ✅ Standardization of categorical fields (e.g., education, marital status)  
+- ✅ Creation of key performance metrics:
+  - `mnt_total` → Total customer spending  
+  - `AOV` → Average Order Value  
+  - `CR%` → Conversion Rate per campaign  
 
-Power BI – Interactive dashboard creation and visualization
+Final analytical SQL views created:
 
-Excel / CSV – Data export and integration
+- `vw_campaign_summary`  
+- `vw_aov_by_campaign_accept`  
+- `vw_segment_income`  
+- `vw_segment_education`  
+- `vw_segment_marital`  
 
-GitHub – Version control and project documentation
+---
 
+## 📊 Power BI Dashboard Highlights
 
+### **KPIs**
+- Total Exposed Customers  
+- Total Revenue  
+- Average Order Value (AOV)  
+- Total Conversions  
+- Conversion Rate (%)
 
-**SQL Data Cleaning & Preparation**
+### **Visuals**
+- Revenue by Campaign  
+- Conversion Rate by Campaign  
+- Exposed vs. Converted Customers  
+- Interactive Campaign Selector (slicer for dynamic comparisons)
 
+---
 
-Removed null and invalid IDs
+## 💡 Key Insights
 
-Standardized categorical values (education, marital status)
+- **Campaign 6** delivered the highest conversion rate (~15%)  
+- **Average Order Value** remained consistent around **$290**  
+- **Total Revenue** exceeded **$53K** across all campaigns  
+- Dashboard interactivity allows quick comparison of campaign effectiveness  
 
-Created calculated fields for:
+---
 
-mnt_total → total spending per customer
+## 📂 Repository Contents
 
-AOV → Average Order Value per customer
+| File | Description |
+|------|-------------|
+| `marketing_campaign.sql` | SQL scripts for data cleaning and transformation |
+| `campaign_summary_export.pbix` | Power BI dashboard file |
+| `marketing_campaign.xlsx` | Cleaned dataset exported from SQL |
+| `README.md` | Project documentation (this file) |
 
-CR% → Conversion Rate per campaign
+---
 
-Built final analysis views:
+## 💼 Business Value
 
-vw_campaign_summary
+This project simulates a **real-world marketing analytics workflow**, combining SQL and BI tools to:
 
-vw_aov_by_campaign_accept
+- Measure **campaign ROI and conversion efficiency**
+- Identify **high-performing customer segments**
+- Support **data-driven marketing decisions**
 
-vw_segment_income, vw_segment_education, vw_segment_marital
+By leveraging data engineering and visualization skills, this project demonstrates the ability to **translate raw data into actionable business insights**.
 
+---
 
+## 📎 How to Use
 
-**Power BI Dashboard Highlights**
-
-KPI Cards:
-
-Total Exposed
-
-Total Revenue
-
-Avg AOV
-
-Total Conversions
-
-Conversion Rate (%)
-
-Visuals:
-
-Revenue per Campaign
-
-Conversion Rate by Campaign
-
-Exposed vs Conversions
-
-Campaign Selector (interactive slicer)
-
-
-
-**Key Insights**
-
-Campaign 6 achieved the highest conversion rate (≈15%).
-
-Average order value remained stable (~290).
-
-Total revenue exceeded 53K across campaigns.
-
-Interactive slicer allows comparison between campaigns.
-
-
-**Files in this Repository**
-
-
-File	Description
-marketing_campaign.sql	SQL scripts for data cleaning and transformation
-campaign_summary_export.pbix	Power BI dashboard file
-marketing_campaign.xlsx	Cleaned dataset exported from SQL
-README.md	Project documentation
-
-**Business Value**
-
-This project simulates a real-world marketing analysis, tracking campaign effectiveness and ROI, identifying which campaigns drive the most conversions, and providing insights for future marketing strategy.
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/marketing_campaign_project.git
