@@ -1,14 +1,23 @@
 # marketing_campaign_project
+
 SQL A/B Testing on Marketing Campaigns . Data cleaning, transformation, and analysis of Kaggle Marketing Campaign dataset using MySQL. 
 
 
+Interactive Power BI dashboard visualizing marketing campaign performance — built using SQL & Power BI.
+
+
+<img width="1096" height="613" alt="image" src="https://github.com/user-attachments/assets/18defe94-a00f-4970-96ce-a4ee7def7c62" />
+
+
  **Project Overview**
+ 
 
 This project analyzes the performance of marketing campaigns (A/B testing) to evaluate customer response, conversion rates, and revenue effectiveness.
 Data was cleaned and transformed in SQL, then visualized in Power BI to highlight key business insights.
 
 
 **Tools Used**
+
 
 MySQL Workbench – Data cleaning, transformation, and metric calculations
 
@@ -21,6 +30,7 @@ GitHub – Version control and project documentation
 
 
 **SQL Data Cleaning & Preparation**
+
 
 Removed null and invalid IDs
 
@@ -68,7 +78,9 @@ Exposed vs Conversions
 
 Campaign Selector (interactive slicer)
 
-** Key Insights**
+
+
+**Key Insights**
 
 Campaign 6 achieved the highest conversion rate (≈15%).
 
@@ -78,10 +90,10 @@ Total revenue exceeded 53K across campaigns.
 
 Interactive slicer allows comparison between campaigns.
 
-<img width="1096" height="613" alt="image" src="https://github.com/user-attachments/assets/18defe94-a00f-4970-96ce-a4ee7def7c62" />
-
 
 **Files in this Repository**
+
+
 File	Description
 marketing_campaign.sql	SQL scripts for data cleaning and transformation
 campaign_summary_export.pbix	Power BI dashboard file
